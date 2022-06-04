@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const PORT = 8087;
 const bodyParser = require("body-parser");
-const cors = require("cors");
+const cors = require("https://binar-instagram.herokuapp.com/");
 const path = require("path");
 const upload = require("./utils/fileUpload")
 
