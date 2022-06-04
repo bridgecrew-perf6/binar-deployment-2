@@ -1,10 +1,16 @@
 {
   "development": {
-    "username": "postgres",
-    "password": "luthfi54321",
-    "database": "instagram-api",
-    "host": "127.0.0.1",
-    "dialect": "postgres"
+    "username": "nwnvaodakbweuf",
+    "password": "29e8ae20573f0e93023f6cb785190be2c5321371f1c2b22a486331fb521482bc",
+    "database": "delspa8f0ff1l2",
+    "host": "ec2-44-196-174-238.compute-1.amazonaws.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
   },
   "test": {
     "username": "postgres",
@@ -14,10 +20,16 @@
     "dialect": "postgres"
   },
   "production": {
-    "username": "postgres",
-    "password": "luthfi54321",
-    "database": "instagram-api",
-    "host": "127.0.0.1",
-    "dialect": "postgres"
+    "username": "nwnvaodakbweuf",
+    "password": "29e8ae20573f0e93023f6cb785190be2c5321371f1c2b22a486331fb521482bc",
+    "database": "delspa8f0ff1l2",
+    "host": "ec2-44-196-174-238.compute-1.amazonaws.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
   }
 }
