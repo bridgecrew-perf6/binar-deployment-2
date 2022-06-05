@@ -10,12 +10,12 @@ app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cors());
 
-app.use(
-    cors({
-    origin:"https://binar-instagram.herokuapp.com/", //Client Server
-    methods: "GET, POST, PUT, DELETE", 
-    credentials:true
-}))
+// app.use(
+//     cors({
+//     origin:"https://binar-instagram.herokuapp.com/", //Client Server
+//     methods: "GET, POST, PUT, DELETE", 
+//     credentials:true
+// }))
 
 // Import Controllers
 const authController = require("./controllers/authController");
